@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  php:
+    image: php:7.2-cli
+    volumes:
+      - .:/usr/src
+    working_dir: /usr/src
+    entrypoint: php
+
+  composer:
+    build: ./docker/composer
+    volumes:
+      - .:/var/www/html
+    working_dir: /var/www/html

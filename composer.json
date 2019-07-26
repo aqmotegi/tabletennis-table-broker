@@ -1,0 +1,18 @@
+{
+  "name": "Takugeki/table-broker",
+  "type": "project",
+  "authors": [
+    {
+      "name": "SatoshiMotegi",
+      "email": "satoshi.motegi@asia-quest.jp"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "8.1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Takugeki\\Tb\\": "src"
+    }
+  }
+}
